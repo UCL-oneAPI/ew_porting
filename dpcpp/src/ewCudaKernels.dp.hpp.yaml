@@ -1,0 +1,104 @@
+---
+MainSourceFile:  '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/dpcpp/src/ewCudaKernels.dp.hpp'
+Replacements:
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewCudaKernels.cuh'
+    Offset:          1678
+    Length:          24
+    ReplacementText: "#include <CL/sycl.hpp>\n#include <dpct/dpct.hpp>\n#include \"ewGpuNode.dp.hpp\""
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewCudaKernels.cuh'
+    Offset:          1704
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewCudaKernels.cuh'
+    Offset:          1757
+    Length:          0
+    ReplacementText: ', sycl::nd_item<3> item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewCudaKernels.cuh'
+    Offset:          1760
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewCudaKernels.cuh'
+    Offset:          1815
+    Length:          0
+    ReplacementText: ', sycl::nd_item<3> item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewCudaKernels.cuh'
+    Offset:          1818
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewCudaKernels.cuh'
+    Offset:          1871
+    Length:          0
+    ReplacementText: ', sycl::nd_item<3> item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewCudaKernels.cuh'
+    Offset:          1874
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewCudaKernels.cuh'
+    Offset:          1929
+    Length:          0
+    ReplacementText: ', sycl::nd_item<3> item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewCudaKernels.cuh'
+    Offset:          1932
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewCudaKernels.cuh'
+    Offset:          1985
+    Length:          0
+    ReplacementText: ', sycl::nd_item<3> item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest: []
+...

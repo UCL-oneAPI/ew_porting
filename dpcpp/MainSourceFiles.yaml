@@ -1,0 +1,43 @@
+---
+MainSourceFile:  MainSrcFiles_placehold
+Replacements:
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/EasyWaveGen.cu'
+    Offset:          1681
+    Length:          0
+    ReplacementText: "#include <CL/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/EasyWaveGen.cu'
+    Offset:          1809
+    Length:          10
+    ReplacementText: SYCL_LANGUAGE_VERSION
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/EasyWaveGen.cu'
+    Offset:          1820
+    Length:          24
+    ReplacementText: '#include "ewGpuNode.dp.hpp"'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/EasyWaveGen.cu'
+    Offset:          2833
+    Length:          10
+    ReplacementText: SYCL_LANGUAGE_VERSION
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/EasyWaveGen.cu'
+    Digest:          685797099b25c59816aa867884c73493
+...

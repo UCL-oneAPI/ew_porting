@@ -1,0 +1,158 @@
+---
+MainSourceFile:  '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/dpcpp/src/ewGpuNode.dp.hpp'
+Replacements:
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          1717
+    Length:          0
+    ReplacementText: "#include <CL/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          1780
+    Length:          0
+    ReplacementText: "/*\nDPCT1009:3: SYCL uses exceptions to report errors and does not use the error codes. The original code was commented out and a warning string was inserted. You need to rewrite this code.\n*/\n/*\nDPCT1010:4: SYCL uses exceptions to report errors and does not use the error codes. The call was replaced with 0. You need to rewrite this code.\n*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          1810
+    Length:          11
+    ReplacementText: '0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          1900
+    Length:          0
+    ReplacementText: '"cudaGetErrorString not supported"/*'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          1920
+    Length:          18
+    ReplacementText: '0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          1940
+    Length:          0
+    ReplacementText: '*/'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          2457
+    Length:          4
+    ReplacementText: 'sycl::int4'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          2475
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          2531
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          2587
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          2635
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          2683
+    Length:          9
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          2692
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          3005
+    Length:          11
+    ReplacementText: 'sycl::event'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          3029
+    Length:          0
+    ReplacementText: "\n\tstd::chrono::time_point<std::chrono::steady_clock> evtStart_ct1[5];"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          3031
+    Length:          11
+    ReplacementText: 'sycl::event'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/parallels/Documents/oneAPI_project/easywaves/easyWave/code/src/ewGpuNode.cuh'
+    Offset:          3053
+    Length:          0
+    ReplacementText: "\n\tstd::chrono::time_point<std::chrono::steady_clock> evtEnd_ct1[5];"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest: []
+...
